@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, "Times New Roman", sans-serif;
+}
+
+.container {
+    margin: 20px 50px;
+}
+
+.column {
+    border: 1px solid #ccc;
+    padding-top: 30px;
+}
+
+#left {
+    flex: 1;
+    background: lightblue;
+
+}
+
+#left > div {
+    padding-left: 30px;
+}
+
+#right {
+    flex: 3;
+    background: azure;
+    padding: 30px 40px;
+}
+
+#photo {
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+#contacts > p {
+    margin: 0px;
+}
